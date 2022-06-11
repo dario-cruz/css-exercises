@@ -12,4 +12,6 @@ Issues with the cascade can be the bane of their existence for many when it come
 
 ### Self Check
 - Did you make sure to not edit the HTML file?
+No, did not edit the HTML file, only used it to have reference point to defined elements and classes.
 - If you added selectors to the CSS, do they target a valid HTML element?
+Yep, added selectors to button class selector so that only the specific confirmaion button was targeted for the green bacground. ".button" changed to ".button.confirm" because inside of the HTML file the buttons were defeind with two specific classes.
