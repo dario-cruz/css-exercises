@@ -14,9 +14,22 @@ Flexbox is useful for laying out entire pages as well as the smaller components 
 
 - The header is at the top of the page, the footer is at the bottom, and they stay in place if you resize your screen.
 - The header and footer have padding.
+Did not make use of padding for the header and footer. Actually had to remove global margin and padding in the CSS file to achieve the desired effect for the header and footer. Both the header and footer have margin added to them for spacing. Links in the header and footer also have gap applied to achieve the needed spacing.
+
 - The links in the header and footer are pushed to either side.
+Yes, the links on each side of the page in the header and footer had justify properties applied to them. 
+
 - There is space between the links in the header and footer.
+Yes, applied a gap to the links in the header and footer to achieve the desired effect.
+
 - The footer has a light gray background (`#eeeeee`).
+Yes, the background property is applied to the footer of the page.
+
 - The logo, input and buttons are centered in the screen.
+Yep, made the the content class display as flex in column mode and then applied an align-items and justify-content with center to get the needed effect.
+
 - The buttons have an appropriate amount of padding.
+Yes, padding is applied to the buttons.
+
 - There is space between the logo, input and buttons.
+Yes, there is spacing between all of them.
