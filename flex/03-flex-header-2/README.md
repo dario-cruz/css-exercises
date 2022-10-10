@@ -15,7 +15,12 @@ As with the last example, this one needs to be flexible in the middle, with item
 
 ### Self Check
 - Everything is centered vertically inside the header.
+Yes, made use of align-items: center; to get this end result.
 - There is 8px space between everything and the edge of the header.
+Yes, made use of padding to achieve this.
 - Items are arranged horizontally as seen in the outcome image.
+Yes, they are. Items were arranged using the flexbox justify space-between style. 
 - There is 16px between each item on both sides of the header.
+Yes, more or less. 
 - flex is used to arrange everything.
+Yes, flex was used to arrange all items.

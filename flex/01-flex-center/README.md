@@ -8,5 +8,6 @@ All you need to do is center the red div inside the blue container.
 
 ### Self Check
 - Is the red div centered?
+Yes, the div is centered on the page.
 - Did you _only_ use flexbox to center it?
-
+Yes, I used flex and justify-content to center the div on the page inside of the content box.
