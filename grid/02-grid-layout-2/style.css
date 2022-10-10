@@ -8,6 +8,15 @@ body, html {
   height: 100%;
   padding: 16px;
   box-sizing: border-box;
+  display: grid;
+  gap: 15px;
+  margin-right: 15px;
+  grid-template: 1fr 1fr 1fr 1fr / 30% 70%;
+  grid-template-areas: 
+  "head head"
+  "side nav"
+  "side art"
+  "foot foot";
 }
 
 .container div {
