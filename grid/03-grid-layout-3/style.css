@@ -6,12 +6,14 @@
 .container {
   text-align: center;
   display: grid;
-  grid-template: 10% 10% 65% 10% / 20% 80%;
+  grid-template: 10% 10% 5% 60% 10% / 20% 80%;
   grid-template-areas: 
   "header header"
+  "sidebar nav"
   "sidebar subtitle"
   "sidebar articles"
   "footer footer";
+  gap: 4px;
 }
 
 .container div {
@@ -36,22 +38,29 @@
 }
 
 .menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .menu ul {
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
+  grid-template-columns: repeat(4, 1fr);
 }
 
 .menu ul,
 .menu li {
   font-size: 16px;
+  gap: 50px;
 
 }
 
 .sidebar {
   background-color: #FF7755;
   grid-area: sidebar;
+  display: grid;
+  grid-template: 1fr 1fr 1fr 1fr / 1fr;
+  gap: 50px
 }
 
 .sidebar .photo {
@@ -78,6 +87,9 @@
 }
 
 .nav ul {
+  display: grid;
+  grid-template: 1fr / 1fr 1fr 1fr;
+  /* grid-template-areas: "left mid right"; */
 }
 
 .nav ul li {
