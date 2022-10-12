@@ -6,11 +6,11 @@
 .container {
   text-align: center;
   display: grid;
-  grid-template: 10% 10% 5% 60% 10% / 20% 80%;
+  grid-template: 10% 10% 5% 65% 10% / 20% 80%;
   grid-template-areas: 
   "header header"
   "sidebar nav"
-  "sidebar subtitle"
+  "sidebar articles"
   "sidebar articles"
   "footer footer";
   gap: 4px;
@@ -101,8 +101,9 @@
   background-color: #bccbde;
   grid-area: articles;
   display: grid;
-  grid-template: repeat(auto-fit, minmax(200px, 1fr)) / repeat(auto-fit, minmax(200px, 1fr));
-  gap: 15px;
+  grid-template: repeat(auto-fill, minmax(250px, 1fr)) / repeat(auto-fill, minmax(250px, 1fr));
+  gap: 10px;
+  overflow: hidden;
 }
 
 .article p {
