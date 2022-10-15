@@ -6,7 +6,7 @@
 .container {
   text-align: center;
   display: grid;
-  grid-template: 10% 10% 5% 65% 10% / 20% 80%;
+  grid-template: 10vh 5vh 10vh 68vh 5vh / 20% 80%;
   grid-template-areas: 
   "header header"
   "sidebar nav"
